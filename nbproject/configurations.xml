@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>bomb_enemy.h</itemPath>
+      <itemPath>bomb_sprite.h</itemPath>
+      <itemPath>chasing_sprite.h</itemPath>
+      <itemPath>coin_sprite.h</itemPath>
+      <itemPath>collision.h</itemPath>
+      <itemPath>explosion_sprite.h</itemPath>
+      <itemPath>image_library.h</itemPath>
+      <itemPath>image_sequence.h</itemPath>
+      <itemPath>keyboard_manager.h</itemPath>
+      <itemPath>obstruction_sprite.h</itemPath>
+      <itemPath>phys_sprite.h</itemPath>
+      <itemPath>player_sprite.h</itemPath>
+      <itemPath>rectangle.h</itemPath>
+      <itemPath>sprite.h</itemPath>
+      <itemPath>vec2d.h</itemPath>
+      <itemPath>world.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>bomb_enemy.cpp</itemPath>
+      <itemPath>bomb_sprite.cpp</itemPath>
+      <itemPath>chasing_sprite.cpp</itemPath>
+      <itemPath>coin_sprite.cpp</itemPath>
+      <itemPath>collision.cpp</itemPath>
+      <itemPath>explosion_sprite.cpp</itemPath>
+      <itemPath>image_library.cpp</itemPath>
+      <itemPath>image_sequence.cpp</itemPath>
+      <itemPath>keyboard_manager.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>obstruction_sprite.cpp</itemPath>
+      <itemPath>phys_sprite.cpp</itemPath>
+      <itemPath>player_sprite.cpp</itemPath>
+      <itemPath>rectangle.cpp</itemPath>
+      <itemPath>sprite.cpp</itemPath>
+      <itemPath>vec2d.cpp</itemPath>
+      <itemPath>world.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>/usr/local/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>/usr/local/lib/liballegro.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/lib/liballegro_dialog.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/lib/liballegro.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/lib/liballegro_audio.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/lib/liballegro_acodec.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/lib/liballegro_font.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/lib/liballegro_main.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/lib/liballegro_color.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/lib/liballegro_image.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/lib/liballegro_primitives.dylib</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="bomb_enemy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="bomb_enemy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bomb_sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="bomb_sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chasing_sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="chasing_sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="coin_sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="coin_sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="collision.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="collision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="explosion_sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="explosion_sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="image_library.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="image_library.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="image_sequence.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="image_sequence.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="keyboard_manager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="keyboard_manager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="obstruction_sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="obstruction_sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="phys_sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="phys_sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="player_sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="player_sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rectangle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rectangle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vec2d.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vec2d.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="world.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="world.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="bomb_enemy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="bomb_enemy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bomb_sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="bomb_sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chasing_sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="chasing_sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="coin_sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="coin_sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="collision.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="collision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="explosion_sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="explosion_sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="image_library.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="image_library.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="image_sequence.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="image_sequence.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="keyboard_manager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="keyboard_manager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="obstruction_sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="obstruction_sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="phys_sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="phys_sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="player_sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="player_sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rectangle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rectangle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vec2d.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vec2d.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="world.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="world.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

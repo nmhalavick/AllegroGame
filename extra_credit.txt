@@ -1,0 +1,5 @@
+Extra Credit:
+
+-Additional character/object animations (Both enemy birds, coins, explosions)
+-Additional player animations beyond walking (jump right/left)
+-Three distinct levels
